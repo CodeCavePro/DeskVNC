@@ -1,0 +1,16 @@
+name: DeskVNC
+id: ari:cloud:compass:03d65e25-e64b-4f9b-a03c-ee77eb7ca52c:component/35f21fc9-0ad4-430a-b567-79e14ff0d558/d85ea66e-b50d-4944-b5d7-683a158451b7
+description: Native VNC, RDP and SSH client for Windows, macOS and Linux. Pure-Rust protocol cores, Tauri 2. One host library for all three, plus an MCP control plane so an AI agent can drive remote desktops with human takeover.
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/CodeCavePro/DeskVNC
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields: null
